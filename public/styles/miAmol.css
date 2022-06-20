@@ -1,0 +1,77 @@
+
+body {
+    height: 100%;
+    background-image: linear-gradient(180deg, #70b5ff 0, #86b1ff 8.33%, #99adff 16.67%, #aaa9ff 25%, #baa5ff 33.33%, #c8a1f9 41.67%, #d59df2 50%, #e099ea 58.33%, #eb96e1 66.67%, #f392d7 75%, #fa90cd 83.33%, #ff8ec2 91.67%, #ff8db7 100%);
+}
+
+.titulo{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.subtitle{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.containerImages{
+    margin-top: 800px;
+    border: 1px solid white;
+    border-radius: 32px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenesDerecha{
+    border: 1px solid white;
+    border-radius: 32px;
+    margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom:50px;
+    width: 500px;
+    height: 500px;
+}
+
+.imagenesIzquierda{
+    border: 1px solid white;
+    border-radius: 32px;
+    margin-right: 35%;
+    margin-top: 50px;
+    margin-bottom:50px;
+    width: 500px;
+    height: 500px;
+}
+
+.images{
+    width: 500px;
+    height: auto;
+    border-radius:32px
+}
+
+.centrarContainerMap{
+    display: flex;
+    justify-content: center;
+}
+
+.containerMap{
+    border: 1px solid white;
+    border-radius: 32px;
+    height:600px;
+    width:700px;
+    
+}
+
+.map{
+    border: 1px solid white;
+    border-radius: 32px;
+    height:550px;
+    width:650px;
+    margin: 22.5px;
+}
